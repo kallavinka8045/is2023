@@ -2,8 +2,8 @@ import glob
 import os
 import random
 
-prefix = 'https://kallavinka8045.github.io/is2021/wav_for_mos/'
-domain_list = ['ablation', 'seen', 'unseen', 'tts']
+prefix = 'https://kallavinka8045.github.io/is2023/wav_for_mos/'
+domain_list = ['analysis-synthesis', 'multispk', 'fewshot', 'zeroshot']
 
 for domain in domain_list:
     category_list = os.listdir(domain)
