@@ -3,7 +3,7 @@ import os
 import random
 
 prefix = 'https://kallavinka8045.github.io/is2023/wav_for_mos/'
-domain_list = ['analysis-synthesis', 'multispk', 'fewshot', 'zeroshot']
+domain_list = ['ablation-study']
 category_source = 'proposed'
 
 for domain in domain_list:
