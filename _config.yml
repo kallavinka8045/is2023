@@ -3,7 +3,6 @@ layout: default
 markdown: kramdown
 kramdown:
   toc_levels: 1..2
-title: "UnivNet: A Neural Vocoder with Multi-Resolution Spectrogram Discriminators for High-Fidelity Waveform Generation"
-description: Won Jang<sup>1</sup>, Dan Lim<sup>2</sup>, Jaesam Yoon<sup>1</sup>, Bongwan Kim<sup>1</sup>, Juntae Kim<sup>1</sup>
-address1: <sup>1</sup>Kakao Enterprise Corporation, Seongnam, Korea
-address2: <sup>2</sup>Kakao Corporation, Seongnam, Korea
+title: "FastFit: Towards Real-Time Iterative Neural Vocoder for Text-to-Speech
+by Replacing U-Net Encoder with Multiple STFTs"
+description: Anonymous submission to INTERSPEECH 2023
