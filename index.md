@@ -64,7 +64,7 @@ This paper presents FastFit, a novel neural vocoder architecture that replaces U
             <td><audio controls style="width: 150px;"><source src="wav_for_demo/multispk/proposed/1027_125410_50.wav" type="audio/wav"></audio></td>
         </tr>
     </tbody>
-        <tbody>
+    <tbody>
         <tr>
             <th>FastFit (U-Net)</th>
             <td><audio controls style="width: 150px;"><source src="wav_for_demo/multispk/u-net/100_121669_10.wav" type="audio/wav"></audio></td>
@@ -120,7 +120,7 @@ This paper presents FastFit, a novel neural vocoder architecture that replaces U
             <td><audio controls style="width: 150px;"><source src="wav_for_demo/zeroshot/proposed/50.wav" type="audio/wav"></audio></td>
         </tr>
     </tbody>
-        <tbody>
+    <tbody>
         <tr>
             <th>FastFit (U-Net)</th>
             <td><audio controls style="width: 150px;"><source src="wav_for_demo/zeroshot/u-net/10.wav" type="audio/wav"></audio></td>
@@ -179,13 +179,13 @@ This paper presents FastFit, a novel neural vocoder architecture that replaces U
     <tbody>
         <tr>
             <th>FastFit</th>
-            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastfit/1089_134686_000002_000000.wav" type="audio/wav"></audio></td>
-            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastfit/2300_131720_000002_000001.wav" type="audio/wav"></audio></td>
-            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastfit/3570_5694_000005_000003.wav" type="audio/wav"></audio></td>
-            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastfit/4446_2275_000001_000000.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/proposed/1089_134686_000002_000000.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/proposed/2300_131720_000002_000001.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/proposed/3570_5694_000005_000003.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/proposed/4446_2275_000001_000000.wav" type="audio/wav"></audio></td>
         </tr>
     </tbody>
-        <tbody>
+    <tbody>
         <tr>
             <th>FastFit (U-Net)</th>
             <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/u-net/1089_134686_000002_000000.wav" type="audio/wav"></audio></td>
@@ -208,100 +208,73 @@ This paper presents FastFit, a novel neural vocoder architecture that replaces U
     <tbody>
         <tr>
             <th>Recordings</th>
-            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/recordings/1089_134686_000002_000000.wav" type="audio/wav"></audio></td>
-            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/recordings/2300_131720_000002_000001.wav" type="audio/wav"></audio></td>
-            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/recordings/3570_5694_000005_000003.wav" type="audio/wav"></audio></td>
-            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/recordings/4446_2275_000001_000000.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/ablation-study/recordings/1089_134686_000002_000000.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/ablation-study/recordings/2300_131720_000002_000001.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/ablation-study/recordings/3570_5694_000005_000003.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/ablation-study/recordings/4446_2275_000001_000000.wav" type="audio/wav"></audio></td>
         </tr>
     </tbody>
     <tbody>
         <tr>
             <th>FastFit</th>
-            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastfit/1089_134686_000002_000000.wav" type="audio/wav"></audio></td>
-            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastfit/2300_131720_000002_000001.wav" type="audio/wav"></audio></td>
-            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastfit/3570_5694_000005_000003.wav" type="audio/wav"></audio></td>
-            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastfit/4446_2275_000001_000000.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/ablation-study/proposed/1089_134686_000002_000000.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/ablation-study/proposed/2300_131720_000002_000001.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/ablation-study/proposed/3570_5694_000005_000003.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/ablation-study/proposed/4446_2275_000001_000000.wav" type="audio/wav"></audio></td>
         </tr>
     </tbody>
-        <tbody>
+    <tbody>
         <tr>
             <th>FastFit (U-Net)</th>
-            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/u-net/1089_134686_000002_000000.wav" type="audio/wav"></audio></td>
-            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/u-net/2300_131720_000002_000001.wav" type="audio/wav"></audio></td>
-            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/u-net/3570_5694_000005_000003.wav" type="audio/wav"></audio></td>
-            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/u-net/4446_2275_000001_000000.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/ablation-study/u-net/1089_134686_000002_000000.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/ablation-study/u-net/2300_131720_000002_000001.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/ablation-study/u-net/3570_5694_000005_000003.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/ablation-study/u-net/4446_2275_000001_000000.wav" type="audio/wav"></audio></td>
         </tr>
     </tbody>
     <tbody>
         <tr>
             <th>Without AdaLN</th>
-            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastfit/1089_134686_000002_000000.wav" type="audio/wav"></audio></td>
-            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastfit/2300_131720_000002_000001.wav" type="audio/wav"></audio></td>
-            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastfit/3570_5694_000005_000003.wav" type="audio/wav"></audio></td>
-            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastfit/4446_2275_000001_000000.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/ablation-study/wo-adaln/1089_134686_000002_000000.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/ablation-study/wo-adaln/2300_131720_000002_000001.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/ablation-study/wo-adaln/3570_5694_000005_000003.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/ablation-study/wo-adaln/4446_2275_000001_000000.wav" type="audio/wav"></audio></td>
         </tr>
     </tbody>
-        <tbody>
+    <tbody>
         <tr>
             <th>Without skip-connections</th>
-            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/u-net/1089_134686_000002_000000.wav" type="audio/wav"></audio></td>
-            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/u-net/2300_131720_000002_000001.wav" type="audio/wav"></audio></td>
-            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/u-net/3570_5694_000005_000003.wav" type="audio/wav"></audio></td>
-            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/u-net/4446_2275_000001_000000.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/ablation-study/wo-skip-connection/1089_134686_000002_000000.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/ablation-study/wo-skip-connection/2300_131720_000002_000001.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/ablation-study/wo-skip-connection/3570_5694_000005_000003.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/ablation-study/wo-skip-connection/4446_2275_000001_000000.wav" type="audio/wav"></audio></td>
         </tr>
     </tbody>
     <tbody>
         <tr>
-            <th>$\mathbf{y}_T\sim\hspace{3pt}$Spectral envelope</th>
-            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastfit/1089_134686_000002_000000.wav" type="audio/wav"></audio></td>
-            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastfit/2300_131720_000002_000001.wav" type="audio/wav"></audio></td>
-            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastfit/3570_5694_000005_000003.wav" type="audio/wav"></audio></td>
-            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastfit/4446_2275_000001_000000.wav" type="audio/wav"></audio></td>
-        </tr>
-    </tbody>
-        <tbody>
-        <tr>
-            <th>FastFit (U-Net)</th>
-            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/u-net/1089_134686_000002_000000.wav" type="audio/wav"></audio></td>
-            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/u-net/2300_131720_000002_000001.wav" type="audio/wav"></audio></td>
-            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/u-net/3570_5694_000005_000003.wav" type="audio/wav"></audio></td>
-            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/u-net/4446_2275_000001_000000.wav" type="audio/wav"></audio></td>
+            <th>Initial point from Spectral envelope</th>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/ablation-study/spec-env/1089_134686_000002_000000.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/ablation-study/spec-env/2300_131720_000002_000001.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/ablation-study/spec-env/3570_5694_000005_000003.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/ablation-study/spec-env/4446_2275_000001_000000.wav" type="audio/wav"></audio></td>
         </tr>
     </tbody>
     <tbody>
         <tr>
-            <th>FastFit</th>
-            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastfit/1089_134686_000002_000000.wav" type="audio/wav"></audio></td>
-            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastfit/2300_131720_000002_000001.wav" type="audio/wav"></audio></td>
-            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastfit/3570_5694_000005_000003.wav" type="audio/wav"></audio></td>
-            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastfit/4446_2275_000001_000000.wav" type="audio/wav"></audio></td>
-        </tr>
-    </tbody>
-        <tbody>
-        <tr>
-            <th>FastFit (U-Net)</th>
-            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/u-net/1089_134686_000002_000000.wav" type="audio/wav"></audio></td>
-            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/u-net/2300_131720_000002_000001.wav" type="audio/wav"></audio></td>
-            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/u-net/3570_5694_000005_000003.wav" type="audio/wav"></audio></td>
-            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/u-net/4446_2275_000001_000000.wav" type="audio/wav"></audio></td>
+            <th>Initial point from Griffin-Lim</th>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/ablation-study/griffin-lim/1089_134686_000002_000000.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/ablation-study/griffin-lim/2300_131720_000002_000001.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/ablation-study/griffin-lim/3570_5694_000005_000003.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/ablation-study/griffin-lim/4446_2275_000001_000000.wav" type="audio/wav"></audio></td>
         </tr>
     </tbody>
     <tbody>
         <tr>
-            <th>FastFit</th>
-            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastfit/1089_134686_000002_000000.wav" type="audio/wav"></audio></td>
-            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastfit/2300_131720_000002_000001.wav" type="audio/wav"></audio></td>
-            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastfit/3570_5694_000005_000003.wav" type="audio/wav"></audio></td>
-            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastfit/4446_2275_000001_000000.wav" type="audio/wav"></audio></td>
-        </tr>
-    </tbody>
-        <tbody>
-        <tr>
-            <th>FastFit (U-Net)</th>
-            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/u-net/1089_134686_000002_000000.wav" type="audio/wav"></audio></td>
-            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/u-net/2300_131720_000002_000001.wav" type="audio/wav"></audio></td>
-            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/u-net/3570_5694_000005_000003.wav" type="audio/wav"></audio></td>
-            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/u-net/4446_2275_000001_000000.wav" type="audio/wav"></audio></td>
+            <th>Magnitude STFT encoder</th>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/ablation-study/proposed-mag/1089_134686_000002_000000.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/ablation-study/proposed-mag/2300_131720_000002_000001.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/ablation-study/proposed-mag/3570_5694_000005_000003.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/ablation-study/proposed-mag/4446_2275_000001_000000.wav" type="audio/wav"></audio></td>
         </tr>
     </tbody>
 </table>
