@@ -252,7 +252,7 @@ This paper presents FastFit, a novel neural vocoder architecture that replaces U
     </tbody>
     <tbody>
         <tr>
-            <th>Initial point from Spectral envelope</th>
+            <th>Initial point from spectral envelope</th>
             <td><audio controls style="width: 150px;"><source src="wav_for_demo/ablation-study/spec-env/1089_134686_000002_000000.wav" type="audio/wav"></audio></td>
             <td><audio controls style="width: 150px;"><source src="wav_for_demo/ablation-study/spec-env/2300_131720_000002_000001.wav" type="audio/wav"></audio></td>
             <td><audio controls style="width: 150px;"><source src="wav_for_demo/ablation-study/spec-env/3570_5694_000005_000003.wav" type="audio/wav"></audio></td>
