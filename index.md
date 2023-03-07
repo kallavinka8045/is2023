@@ -89,7 +89,7 @@ This paper presents FastFit, a novel neural vocoder architecture that replaces U
 ## Application to text-to-speech synthesis
 * For multi-speaker TTS, we trained the JDI-T[7] acoustic model using the LibriTTS 'train-clean-360' subset with 100 speakers.
 * For zero-shot TTS evaluation, we used an open-source TTS program named TorToiSe[].
-** The recordings of the LibriTTS ’test-clean’ subset with 10 speakers were input into the program with an 'ultra-fast' offset to synthesize mel-spectrograms for evaluation.
+  - The recordings of the LibriTTS ’test-clean’ subset with 10 speakers were input into the program with an 'ultra-fast' offset to synthesize mel-spectrograms for evaluation.
 
 
 
