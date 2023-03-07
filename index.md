@@ -1,6 +1,6 @@
 # FastFit: Towards Real-Time Iterative Neural Vocoder for Text-to-Speech by Replacing U-Net Encoder with Multiple STFTs
 
-# Anonymous submission to INTERSPEECH 2023
+## Anonymous submission to INTERSPEECH 2023
 
 # Table of contents
 {:.no_toc}
