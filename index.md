@@ -9,7 +9,7 @@
 This paper presents FastFit, a novel neural vocoder architecture that replaces U-Net's encoder with multiple short-time Fourier transforms (STFTs) to achieve faster generation rates without sacrificing sample quality. We replace each encoder block with an STFT, with parameters equal to the temporal resolution of each decoder block leading to the skip-connection. FastFit reduces the number of parameters and generation time of the model by almost half while maintaining high fidelity. Through objective and subjective evaluations, we demonstrate that the proposed model achieves nearly twice the generation speed of the baseline iteration-based vocoders while maintaining high sound quality. We also show that FastFit produces similar sound quality to other baselines in text-to-speech evaluation scenarios, including multi-speaker and zero-shot text-to-speech.
 
 # Results
-* We adopted [LibriTTS](https://openslr.org/60/), a multi-speaker English dataset which has 24 kHz sampling rate waveforms
+* We adopted [LibriTTS](https://openslr.org/60/), a multi-speaker English dataset which has 24 kHz sampling rate waveforms.
 * For training models, a 'train-clean-360' dataset was used.
 * For ground-truth mel-spectrogram evaluation (GT mel evaluation) including the ablation study, a 'test-clean' dataset was prepared.
 
@@ -87,10 +87,10 @@ This paper presents FastFit, a novel neural vocoder architecture that replaces U
 
 
 ## Application to text-to-speech synthesis
-* For multi-speaker TTS, we trained the JDI-T[7] acoustic model using the LibriTTS 'train-clean-360' subset with 100 speakers.
-* For zero-shot TTS evaluation, we used an open-source TTS program named TorToiSe[].
+* For multi-speaker TTS, we trained the [JDI-T](https://arxiv.org/abs/2005.07799) acoustic model using the LibriTTS 'train-clean-360' subset with 100 speakers.
+* For zero-shot TTS evaluation, we used an open-source TTS program named [TorToiSe](https://github.com/neonbjb/tortoise-tts).
   - The recordings of the LibriTTS ’test-clean’ subset with 10 speakers were input into the program with an 'ultra-fast' offset to synthesize mel-spectrograms for evaluation.
-
+* Each vocoder was not fine-tuned with these predicted mel-spectrograms.
 
 
 ## Ablation studies
