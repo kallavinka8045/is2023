@@ -76,7 +76,232 @@ This paper presents FastFit, a novel neural vocoder architecture that replaces U
 </table>
 
 ### Zero-shot text-to-speech
+<table>
+    <thead>
+        <th>Models</th>
+        <th>#1</th>
+        <th>#2</th>
+        <th>#3</th>
+        <th>#4</th>
+    </thead>
+    <tbody>
+        <tr>
+            <th>UnivNet</th>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/zeroshot/univnet/10.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/zeroshot/univnet/15.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/zeroshot/univnet/26.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/zeroshot/univnet/50.wav" type="audio/wav"></audio></td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <th>FastDiff</th>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/zeroshot/fastdiff/10.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/zeroshot/fastdiff/15.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/zeroshot/fastdiff/26.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/zeroshot/fastdiff/50.wav" type="audio/wav"></audio></td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <th>WaveFit</th>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/zeroshot/fastdiff/10.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/zeroshot/fastdiff/15.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/zeroshot/fastdiff/26.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/zeroshot/fastdiff/50.wav" type="audio/wav"></audio></td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <th>FastFit</th>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/zeroshot/proposed/10.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/zeroshot/proposed/15.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/zeroshot/proposed/26.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/zeroshot/proposed/50.wav" type="audio/wav"></audio></td>
+        </tr>
+    </tbody>
+        <tbody>
+        <tr>
+            <th>FastFit (U-Net)</th>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/zeroshot/u-net/10.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/zeroshot/u-net/15.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/zeroshot/u-net/26.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/zeroshot/u-net/50.wav" type="audio/wav"></audio></td>
+        </tr>
+    </tbody>
+</table>
 
 ## Ground truth mel-spectrogram
+<table>
+    <thead>
+        <th>Models</th>
+        <th>#1</th>
+        <th>#2</th>
+        <th>#3</th>
+        <th>#4</th>
+    </thead>
+    <tbody>
+        <tr>
+            <th>Recordings</th>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/recordings/1089_134686_000002_000000.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/recordings/2300_131720_000002_000001.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/recordings/3570_5694_000005_000003.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/recordings/4446_2275_000001_000000.wav" type="audio/wav"></audio></td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <th>UnivNet</th>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/univnet/1089_134686_000002_000000.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/univnet/2300_131720_000002_000001.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/univnet/3570_5694_000005_000003.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/univnet/4446_2275_000001_000000.wav" type="audio/wav"></audio></td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <th>FastDiff</th>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastdiff/1089_134686_000002_000000.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastdiff/2300_131720_000002_000001.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastdiff/3570_5694_000005_000003.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastdiff/4446_2275_000001_000000.wav" type="audio/wav"></audio></td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <th>WaveFit</th>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/wavefit/1089_134686_000002_000000.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/wavefit/2300_131720_000002_000001.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/wavefit/3570_5694_000005_000003.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/wavefit/4446_2275_000001_000000.wav" type="audio/wav"></audio></td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <th>FastFit</th>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastfit/1089_134686_000002_000000.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastfit/2300_131720_000002_000001.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastfit/3570_5694_000005_000003.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastfit/4446_2275_000001_000000.wav" type="audio/wav"></audio></td>
+        </tr>
+    </tbody>
+        <tbody>
+        <tr>
+            <th>FastFit (U-Net)</th>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/u-net/1089_134686_000002_000000.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/u-net/2300_131720_000002_000001.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/u-net/3570_5694_000005_000003.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/u-net/4446_2275_000001_000000.wav" type="audio/wav"></audio></td>
+        </tr>
+    </tbody>
+</table>
 
 # Ablation studies
+<table>
+    <thead>
+        <th>Models</th>
+        <th>#1</th>
+        <th>#2</th>
+        <th>#3</th>
+        <th>#4</th>
+    </thead>
+    <tbody>
+        <tr>
+            <th>Recordings</th>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/recordings/1089_134686_000002_000000.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/recordings/2300_131720_000002_000001.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/recordings/3570_5694_000005_000003.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/recordings/4446_2275_000001_000000.wav" type="audio/wav"></audio></td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <th>FastFit</th>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastfit/1089_134686_000002_000000.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastfit/2300_131720_000002_000001.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastfit/3570_5694_000005_000003.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastfit/4446_2275_000001_000000.wav" type="audio/wav"></audio></td>
+        </tr>
+    </tbody>
+        <tbody>
+        <tr>
+            <th>FastFit (U-Net)</th>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/u-net/1089_134686_000002_000000.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/u-net/2300_131720_000002_000001.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/u-net/3570_5694_000005_000003.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/u-net/4446_2275_000001_000000.wav" type="audio/wav"></audio></td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <th>Without AdaLN</th>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastfit/1089_134686_000002_000000.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastfit/2300_131720_000002_000001.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastfit/3570_5694_000005_000003.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastfit/4446_2275_000001_000000.wav" type="audio/wav"></audio></td>
+        </tr>
+    </tbody>
+        <tbody>
+        <tr>
+            <th>Without skip-connections</th>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/u-net/1089_134686_000002_000000.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/u-net/2300_131720_000002_000001.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/u-net/3570_5694_000005_000003.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/u-net/4446_2275_000001_000000.wav" type="audio/wav"></audio></td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <th>$\mathbf{y}_T\sim\hspace{3pt}$Spectral envelope</th>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastfit/1089_134686_000002_000000.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastfit/2300_131720_000002_000001.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastfit/3570_5694_000005_000003.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastfit/4446_2275_000001_000000.wav" type="audio/wav"></audio></td>
+        </tr>
+    </tbody>
+        <tbody>
+        <tr>
+            <th>FastFit (U-Net)</th>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/u-net/1089_134686_000002_000000.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/u-net/2300_131720_000002_000001.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/u-net/3570_5694_000005_000003.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/u-net/4446_2275_000001_000000.wav" type="audio/wav"></audio></td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <th>FastFit</th>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastfit/1089_134686_000002_000000.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastfit/2300_131720_000002_000001.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastfit/3570_5694_000005_000003.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastfit/4446_2275_000001_000000.wav" type="audio/wav"></audio></td>
+        </tr>
+    </tbody>
+        <tbody>
+        <tr>
+            <th>FastFit (U-Net)</th>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/u-net/1089_134686_000002_000000.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/u-net/2300_131720_000002_000001.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/u-net/3570_5694_000005_000003.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/u-net/4446_2275_000001_000000.wav" type="audio/wav"></audio></td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <th>FastFit</th>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastfit/1089_134686_000002_000000.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastfit/2300_131720_000002_000001.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastfit/3570_5694_000005_000003.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/fastfit/4446_2275_000001_000000.wav" type="audio/wav"></audio></td>
+        </tr>
+    </tbody>
+        <tbody>
+        <tr>
+            <th>FastFit (U-Net)</th>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/u-net/1089_134686_000002_000000.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/u-net/2300_131720_000002_000001.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/u-net/3570_5694_000005_000003.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 150px;"><source src="wav_for_demo/gt-evaluation/u-net/4446_2275_000001_000000.wav" type="audio/wav"></audio></td>
+        </tr>
+    </tbody>
+</table>
