@@ -1,4 +1,4 @@
-# FastFit: Towards Real-Time Iterative Neural Vocoder by Replacing U-Net Encoder with Multiple STFTs
+# FastFit: Towards Real-Time Iterative Neural Vocoder by Replacing U-Net Encoder With Multiple STFTs
 
 ## Anonymous submission to INTERSPEECH 2023
 
