@@ -1,4 +1,4 @@
-# FastFit: Towards Real-Time Iterative Neural Vocoder for Text-to-Speech by Replacing U-Net Encoder with Multiple STFTs
+# FastFit: Towards Real-Time Iterative Neural Vocoder by Replacing U-Net Encoder with Multiple STFTs
 
 ## Anonymous submission to INTERSPEECH 2023
 
@@ -10,7 +10,7 @@
 # Abstract
 <img src="figure1.png" width="1000px">
 
-This paper presents FastFit, a novel neural vocoder architecture that replaces U-Net's encoder with multiple short-time Fourier transforms (STFTs) to achieve faster generation rates without sacrificing sample quality. We replace each encoder block with an STFT, with parameters equal to the temporal resolution of each decoder block leading to the skip-connection. FastFit reduces the number of parameters and generation time of the model by almost half while maintaining high fidelity. Through objective and subjective evaluations, we demonstrate that the proposed model achieves nearly twice the generation speed of the baseline iteration-based vocoders while maintaining high sound quality. We also show that FastFit produces similar sound quality to other baselines in text-to-speech evaluation scenarios, including multi-speaker and zero-shot text-to-speech.
+This paper presents FastFit, a novel neural vocoder architecture that replaces the U-Net encoder with multiple short-time Fourier transforms (STFTs) to achieve faster generation rates without sacrificing sample quality. We replaced each encoder block with an STFT, with parameters equal to the temporal resolution of each decoder block, leading to the skip connection. FastFit reduces the number of parameters and the generation time of the model by almost half while maintaining high fidelity. Through objective and subjective evaluations, we demonstrated that the proposed model achieves nearly twice the generation speed of baseline iteration-based vocoders while maintaining high sound quality. We further showed that FastFit produces sound qualities similar to those of other baselines in text-to-speech evaluation scenarios, including multi-speaker and zero-shot text-to-speech.
 
 # Comparison with baselines
 * We adopted [LibriTTS](https://openslr.org/60/), a multi-speaker English dataset which has 24 kHz sampling rate waveforms.
